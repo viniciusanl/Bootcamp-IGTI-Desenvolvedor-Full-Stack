@@ -1,7 +1,11 @@
 #paddingDiv {
-  padding-top: 20px
+  padding-top: 20px;
 }
 
 h1 {
   text-align: center;
+}
+
+input {
+  font-weight: bold;
 }

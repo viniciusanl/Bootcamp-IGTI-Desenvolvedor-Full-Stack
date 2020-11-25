@@ -55,11 +55,10 @@ let arrNumberOthers = [
 ];
 
 function startPage() {
-
   numberInt = document.querySelector('#numberInt');
   numberText = document.querySelector('#numberText');
   rangeControl = document.querySelector('#rangeControl');
-  rangeControl.addEventListener('change', controlNumber);
+  rangeControl.addEventListener('input', controlNumber);
 }
 
 function controlNumber(event) {
