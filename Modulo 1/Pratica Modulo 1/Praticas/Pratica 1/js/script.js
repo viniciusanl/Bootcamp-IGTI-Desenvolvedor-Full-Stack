@@ -7,7 +7,7 @@ function startPage() {
   inputCont.textContent = 0;
 
   let inputName = document.querySelector('#inputName');
-  inputName.addEventListener('keyup', CountNameLength);
+  inputName.addEventListener('input', CountNameLength);
 
   valueForm = document.querySelector('form');
   valueForm.addEventListener('submit', PreventSubmit);
